@@ -235,6 +235,6 @@ body{
 }
 
 .background-arena{
-    background-image: url("/img/robo.png");
+    background-image: url("./img/robo.png");
     
 }
