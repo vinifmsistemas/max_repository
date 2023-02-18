@@ -86,4 +86,5 @@
       </div>
     </div>
   </div>
-  <img class="d-block w-100" src="\assets\img\robo.png">
+  <div class="background-arena d-block w-100"></div>
+  <!--Videos campeonatos-->

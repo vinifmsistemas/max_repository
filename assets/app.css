@@ -233,3 +233,8 @@ body{
     color: skyblue;
 
 }
+
+.background-arena{
+    background-image: url("/img/robo.png");
+    
+}
