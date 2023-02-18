@@ -234,7 +234,20 @@ body{
 
 }
 
-.background-arena{
-    background-image: url("./img/robo.png");
-    
+.background-arena img{
+    width: 100%;
+}
+
+.videos{
+    background-color: rgba(143,0,8,255);
+    display: flex;
+    height:100vh;
+}
+.container-videos{
+    border: 2px solid black;
+    margin: auto;
+}
+.imagem-abc{
+    position:relative;
+    height: auto;
 }
