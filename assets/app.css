@@ -1,0 +1,235 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&display=swap');
+
+.page-loader {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(30 30 30);
+    z-index: 99999;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.remove{
+    display: none!important;
+    z-index: 1!important;
+}
+.page-loader__spinner {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+.page-loader__spinner svg {
+    -webkit-animation: rotate 2s linear infinite;
+    animation: rotate 2s linear infinite;
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.page-loader__spinner svg circle {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+    -webkit-animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+    animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+    stroke-linecap: round;
+}
+.page-loaderAjax {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99999;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.page-loader__spinnerAjax {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.page-loader__spinnerAjax svg {
+    -webkit-animation: rotate 2s linear infinite;
+    animation: rotate 2s linear infinite;
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.page-loader__spinnerAjax svg circle {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+    -webkit-animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+    animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+    stroke-linecap: round;
+}
+
+@-webkit-keyframes rotate {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes dash {
+    0% {
+        stroke-dasharray: 1, 200;
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -35px;
+    }
+    100% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -124px;
+    }
+}
+
+@keyframes dash {
+    0% {
+        stroke-dasharray: 1, 200;
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -35px;
+    }
+    100% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -124px;
+    }
+}
+
+@-webkit-keyframes color {
+    100%,
+    0% {
+        stroke: #dc3545;
+    }
+    40% {
+        stroke: #048297;
+    }
+    66% {
+        stroke: #28a745;
+    }
+    80%,
+    90% {
+        stroke: #ffc107;
+    }
+}
+
+@keyframes color {
+    100%,
+    0% {
+        stroke: #dc3545;
+    }
+    40% {
+        stroke: #048297;
+    }
+    66% {
+        stroke: #28a745;
+    }
+    80%,
+    90% {
+        stroke: #ffc107;
+    }
+}
+
+.horizontally-centered{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.vertically-centered{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: #00040e;
+     font-family: 'Antonio';
+    color: white;
+}
+
+.bg-nav {
+  color: white;
+  background: linear-gradient(180deg, #00040e, transparent);
+}
+
+.nav-item{
+    margin: 0 10px 0
+}
+
+#logo{
+    width: 130px;
+    height: 100%;
+}
+
+.navbarlogo{
+    /*flex-grow: 1; */
+    margin: 0 6% 0;
+}
+
+.elementos-topo-1{
+    display: inline-block;
+}
+
+.proposta{
+    text-align: center; margin-top: 45px; font-size:25px
+}
+
+.caixa-caixas-p-evento{
+    margin:40px 40px 30px;
+}
+.caixa-p-evento{
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+}
+
+.p-evento{
+    padding:50px 30px 40px 30px;
+}
+
+.nav-link{
+    color: white;
+}
+.nav-link:hover {
+    color: skyblue;
+
+}
