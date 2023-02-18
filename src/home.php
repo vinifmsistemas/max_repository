@@ -6,12 +6,14 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
+        <!--
         <div class="elementos-topo-1">
           <p>DIAS 9 3 20 DE ABRIL.</p>
           <p>RESESERVE SEU INGRESSO PARA MAIOR<br>
             EVENTO DE GENSHIN IMPACT<br>
             NO BRASIL</p>
         </div>
+-->
         <img src="/assets/img/topo-1" class="d-block w-100" alt="...">
       </div>
     </div>
@@ -54,6 +56,34 @@
         </div>
       </div>
 
+      <div class="carousel-item">
+        <h1 class="proposta">
+          SOMOS OUSADOS E QUEREMOS SER O PRIMEIRO DISTRITO GAMER DO BRASIL,<br>
+          DESENVOLVENDO ACESSO DEMOCRÁTICO PARA TODAS AS PESSOAS, SERES E SABERES</h1>
+        <div class="caixa-caixas-p-evento">
+          <div class="caixa-p-evento">
+            <p class="p-evento">DIAS 29 3 20 DE ABRIL.<br>
+              RESERVE SEU INGRESSO PARA O MAIOR<br>
+              EVENTO DO UNIVERSO DE GENSHIN IMPACT<br>
+              NO BRASIL
+            </p>
+          </div>
+          <div class="caixa-p-evento">
+            <p class="p-evento">DIAS 29 3 20 DE ABRIL.<br>
+              RESERVE SEU INGRESSO PARA O MAIOR<br>
+              EVENTO DO UNIVERSO DE GENSHIN IMPACT<br>
+              NO BRASIL
+            </p>
+          </div>
+          <div class="caixa-p-evento">
+            <p class="p-evento">DIAS 29 3 20 DE ABRIL.<br>
+              RESERVE SEU INGRESSO PARA O MAIOR<br>
+              EVENTO DO UNIVERSO DE GENSHIN IMPACT<br>
+              NO BRASIL
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <img src="C:\wamp64\www\max\assets\img\robo.png">
+  <img class="d-block w-100" src="\assets\img\robo.png">
