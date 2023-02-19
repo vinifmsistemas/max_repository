@@ -17,50 +17,49 @@ include('manager.php');
 
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
+
+<head>
     <title>Max eSports</title>
-        <!-- Meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
-        <title>New project</title>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <title>New project</title>
 
-        <!-- CSS -->
-        <link href="/assets/bootstrap.min.css" rel="stylesheet">
-        <link href="/assets/app.css" rel="stylesheet">
+    <!-- CSS -->
+    <link href="/assets/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/app.css" rel="stylesheet">
 
-        <!-- Javascript -->
-        <script src="/assets/bootstrap.bundle.min.js"></script>
-        <script src="/assets/jquery.min.js"></script> 
-        <script src="/assets/app.js"></script>
-       
-    </head>
-    <body>
+    <!-- Javascript -->
+    <script src="/assets/bootstrap.bundle.min.js"></script>
+    <script src="/assets/jquery.min.js"></script>
+    <script src="/assets/app.js"></script>
+</head>
 
-        <div class="page-loader">
-            <div class="page-loader__spinner">
-                <svg viewBox="25 25 50 50">
+<body>
+    <div class="page-loader">
+        <div class="page-loader__spinner">
+            <svg viewBox="25 25 50 50">
                 <circle cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
-                </svg>
-            </div>
+            </svg>
         </div>
-        <div class="page-loaderAjax remove">
-            <div class="page-loader__spinnerAjax">
-                <svg viewBox="25 25 50 50">
+    </div>
+    <div class="page-loaderAjax remove">
+        <div class="page-loader__spinnerAjax">
+            <svg viewBox="25 25 50 50">
                 <circle cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
-                </svg>
-            </div>
+            </svg>
         </div>
+    </div>
+    <div class="container-fluid">
+        <?
+        include('header.php');
 
-        <div class="">
-            <?
-            include ('header.php');
+        // Page manager
+        include('mode.php');
+        ?>
+    </div>
+</body>
 
-            // Page manager
-            include ('mode.php');
-            ?>
-
-        </div>
-    </body>
 </html>

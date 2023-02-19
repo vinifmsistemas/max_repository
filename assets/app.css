@@ -1,6 +1,8 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&display=swap');
 
+/* Loading screen */
+
 .page-loader {
     width: 100%;
     height: 100%;
@@ -19,15 +21,13 @@
     display: -ms-flexbox;
     display: flex;
 }
-.remove{
-    display: none!important;
-    z-index: 1!important;
-}
+
 .page-loader__spinner {
     position: relative;
     width: 50px;
     height: 50px;
 }
+
 .page-loader__spinner svg {
     -webkit-animation: rotate 2s linear infinite;
     animation: rotate 2s linear infinite;
@@ -39,6 +39,7 @@
     top: 0;
     left: 0;
 }
+
 .page-loader__spinner svg circle {
     stroke-dasharray: 1, 200;
     stroke-dashoffset: 0;
@@ -46,6 +47,7 @@
     animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
     stroke-linecap: round;
 }
+
 .page-loaderAjax {
     width: 100%;
     height: 100%;
@@ -64,11 +66,13 @@
     display: -ms-flexbox;
     display: flex;
 }
+
 .page-loader__spinnerAjax {
     position: relative;
     width: 150px;
     height: 150px;
 }
+
 .page-loader__spinnerAjax svg {
     -webkit-animation: rotate 2s linear infinite;
     animation: rotate 2s linear infinite;
@@ -80,6 +84,7 @@
     top: 0;
     left: 0;
 }
+
 .page-loader__spinnerAjax svg circle {
     stroke-dasharray: 1, 200;
     stroke-dashoffset: 0;
@@ -107,10 +112,12 @@
         stroke-dasharray: 1, 200;
         stroke-dashoffset: 0;
     }
+
     50% {
         stroke-dasharray: 89, 200;
         stroke-dashoffset: -35px;
     }
+
     100% {
         stroke-dasharray: 89, 200;
         stroke-dashoffset: -124px;
@@ -122,10 +129,12 @@
         stroke-dasharray: 1, 200;
         stroke-dashoffset: 0;
     }
+
     50% {
         stroke-dasharray: 89, 200;
         stroke-dashoffset: -35px;
     }
+
     100% {
         stroke-dasharray: 89, 200;
         stroke-dashoffset: -124px;
@@ -133,16 +142,20 @@
 }
 
 @-webkit-keyframes color {
+
     100%,
     0% {
         stroke: #dc3545;
     }
+
     40% {
         stroke: #048297;
     }
+
     66% {
         stroke: #28a745;
     }
+
     80%,
     90% {
         stroke: #ffc107;
@@ -150,104 +163,228 @@
 }
 
 @keyframes color {
+
     100%,
     0% {
         stroke: #dc3545;
     }
+
     40% {
         stroke: #048297;
     }
+
     66% {
         stroke: #28a745;
     }
+
     80%,
     90% {
         stroke: #ffc107;
     }
 }
 
-.horizontally-centered{
+.remove {
+    display: none !important;
+    z-index: 1 !important;
+}
+
+.horizontally-centered {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
 }
 
-.vertically-centered{
+.vertically-centered {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-body{
-    background-color: #00040e;
-     font-family: 'Antonio';
+html,
+body,
+.container-fluid {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Antonio';
     color: white;
 }
 
+/* Navbar */
+
 .bg-nav {
-  color: white;
-  background: linear-gradient(180deg, #00040e, transparent);
+    color: white;
+    background: linear-gradient(180deg, #00040e, transparent);
 }
 
-.nav-item{
+.nav-item {
     margin: 0 10px 0
 }
 
-#logo{
+#logo {
     width: 130px;
     height: 100%;
 }
 
-.navbarlogo{
+.navbarlogo {
     /*flex-grow: 1; */
     margin: 0 6% 0;
 }
 
-.elementos-topo-1{
+.elementos-topo-1 {
     display: inline-block;
 }
 
-.proposta{
-    text-align: center; margin-top: 45px; font-size:25px
+.proposta {
+    text-align: center;
+    margin-top: 45px;
+    font-size: 25px
 }
 
-.caixa-caixas-p-evento{
-    margin:40px 40px 30px;
+.caixa-caixas-p-evento {
+    margin: 40px 40px 30px;
 }
-.caixa-p-evento{
+
+.caixa-p-evento {
     text-align: center;
     display: inline-block;
     width: 33%;
 }
 
-.p-evento{
-    padding:50px 30px 40px 30px;
+.p-evento {
+    padding: 50px 30px 40px 30px;
 }
 
-.nav-link{
+.nav-link {
     color: white;
 }
+
 .nav-link:hover {
     color: skyblue;
 
 }
 
-.background-arena img{
+.carousel,
+.carousel-inner,
+.carousel-item {
     width: 100%;
+    height: 100%;
 }
 
-.videos{
-    background-color: rgba(143,0,8,255);
-    display: flex;
-    height:100vh;
+.background01,
+.background02,
+.background03 {
+    width: 100%;
+    height: 100%;
 }
-.container-videos{
+
+
+/* Background 01 */
+
+.background01-slide01,
+.background01-slide02,
+.background01-slide03 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.background01-slide01 {
+    background-position: 82% 0%;
+    background-image: url("/assets/img/topo-1.png");
+}
+
+.background01-slide02 {
+    background-image: url("/assets/img/topo-1.png");
+}
+
+.background01-slide03 {
+    background-image: url("/assets/img/topo-1.png");
+}
+
+.background01-slide01-text {
+    margin-left: 80px;
+}
+
+@media (max-width: 768px) {
+
+    .background01-slide01,
+    .background01-slide02,
+    .background01-slide03 {
+        align-items: center;
+    }
+
+    .background01-slide01-text {
+        margin-left: 0px;
+    }
+}
+
+
+/* Background02 */
+.background02 {
+    height: 480px;
+    width: 100%;
+    background-color: #000;
+}
+
+/* Background 03 */
+.background03-container-background {
+    position: relative;
+    background-position: 36% 0%;
+    background-size: cover;
+    background-image: url("/assets/img/robo.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin-top: -2.5%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.background03-container-text {
+    margin-right: 80px;
+}
+
+@media (max-width: 1350px) {
+    .background03-container-background {
+        margin-top: -35px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .background03-container-background {
+        align-items: center;
+    }
+
+    .background03-container-text {
+        margin-right: 0px;
+    }
+}
+
+/* Background 04 */
+.videos {
+    background-color: rgba(143, 0, 8, 255);
+    display: flex;
+    height: 100vh;
+}
+
+.container-videos {
     border: 2px solid black;
     margin: auto;
 }
-.imagem-abc{
-    position:relative;
+
+.imagem-abc {
+    position: relative;
     height: auto;
 }
