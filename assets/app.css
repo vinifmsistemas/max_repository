@@ -210,28 +210,41 @@ body,
     padding: 0px;
     font-family: 'Antonio';
     color: white;
-    background-color: #000;
+    background-color: #00030b;
+    letter-spacing: 0.1px;
 }
 
+h1,h2,h3,h4,h5,h6,p,button,a{
+    transform: scale(1, 0.85);
+    -webkit-transform: scale(1, 0.85);
+    -moz-transform: scale(1, 0.85);
+    -o-transform: scale(1, 0.85);
+    transform-origin: 0% 85%;
+}
 /* Navbar */
 
 .bg-nav {
     color: white;
-    background: linear-gradient(180deg, #00040e, transparent);
 }
 
 .nav-item {
-    margin: 0 10px 0
+    font-size: 20px;
+    margin: 5px 15px 0
 }
 
+.navbarlogo{
+    padding-left: 2rem;
+}
+
+
 #logo {
-    width: 130px;
+    width: 155px;
     height: 100%;
+    margin-top: 10px;
 }
 
 .navbarlogo {
-    /*flex-grow: 1; */
-    margin: 0 6% 0;
+    flex-grow: 1;
 }
 
 .elementos-topo-1 {
@@ -242,10 +255,47 @@ body,
     color: white;
 }
 
-.nav-link:hover {
-    color: skyblue;
-
+.nav-link:hover{
+    color: #00d39b!important;
 }
+
+.nav-link:focus {
+    color: #00946d!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:white;
+}
+
+.navbar-toggler{
+    margin-left: 16px;
+    position: absolute;
+    border: solid 1px;
+    color: white !important;
+}
+
+.nav-shadow {
+    position: fixed;
+    z-index: 1029;
+    width: 100%;
+    height: 130px;
+    background: linear-gradient(180deg, #00040e, transparent);
+}
+
+@media (max-width: 1200px) {
+    .navbar-expand-sm .navbar-collapse{
+        display: none !important;
+    }
+    .navbar-expand-sm .navbar-toggler{
+        display: block !important;
+    }
+    #logo{
+        padding-left: 0;
+        
+    }
+}
+
+/*carousel*/
 
 .carousel,
 .carousel-inner,
@@ -253,6 +303,19 @@ body,
     width: 100%;
     height: 100%;
 }
+
+.carousel-indicators button {
+    background-color: grey !important;
+}
+
+.carousel-indicators .active {
+    background-color: #ca0218 !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    opacity: 1;
+}
+
 
 /* Background 01 */
 .background01-slide01,
@@ -269,7 +332,7 @@ body,
 }
 
 .background01-slide01 {
-    background-position: 82% 0%;
+    background-position: 0% 0%;
     background-image: url("/assets/img/topo-1.png");
 }
 
@@ -282,7 +345,16 @@ body,
 }
 
 .background01-slide01-text {
-    margin-left: 80px;
+    margin-top: 20rem;
+    margin-left: 140px;
+    justify-content: center;
+}
+
+.bck01-slide01-text-p {
+    font-weight: 700;
+    text-shadow: -2px 2px 1px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 35px;
 }
 
 @media (max-width: 768px) {
@@ -293,17 +365,41 @@ body,
         align-items: center;
     }
 
+    .background01-slide01 {
+        background-position: 82% 0;
+    }
+
     .background01-slide01-text {
         margin-left: 0px;
     }
+
 }
 
 
 /* Background02 */
 .background02 {
-    height: 380px;
     width: 100%;
-    background-color: #000;
+    background-color: #00030b;
+    font-weight: 400;
+}
+
+.bck02-h3 {
+    line-height: 45px;
+}
+
+.background02-text {
+    margin-bottom: 30px;
+    padding: 0 3rem;
+    line-height: 30px;
+
+}
+
+.background02-text-last {
+    margin-bottom: 65px;
+}
+
+.background02 .carousel-indicators {
+    margin-bottom: 0;
 }
 
 /* Background 03 */
@@ -329,7 +425,8 @@ body,
 @media (max-width: 1350px) {
     /* .background03-container-background {
         margin-top: -35px;
-    } */
+    }
+    */
 }
 
 
@@ -359,3 +456,245 @@ body,
     width: 100%;
     height: 100%;
 }
+
+/*Background 05 */
+.background05-slide01,
+.background05-slide02,
+.background05-slide03 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.background05-slide01-frame:after { 
+        content: ' ';
+        z-index: 1028;
+        border-top: 100vh solid rgba(0,3,11,0.95);
+        border-right: 50vw solid transparent;
+        border-left: 20vw solid rgba(0,3,11,0.95);
+        width: 0;
+        position: absolute;
+}
+
+.background05-slide01 {
+    background-position: 0% 0%;
+    background-image: url("/assets/img/topo-1.png");
+}
+
+.background05-slide02 {
+    background-image: url("/assets/img/topo-1.png");
+}
+
+.background05-slide03 {
+    background-image: url("/assets/img/topo-1.png");
+}
+
+.background05-slide01-text {
+    margin-top: 20rem;
+    margin-left: 140px;
+    justify-content: center;
+}
+
+.bck05-slide01-text-p {
+    font-weight: 700;
+    text-shadow: -2px 2px 1px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 35px;
+}
+
+
+@media (max-width: 768px) {
+
+    .background05-slide01,
+    .background05-slide02,
+    .background05-slide03 {
+        align-items: center;
+    }
+
+    .background05-slide01 {
+        background-position: 82% 0;
+    }
+
+    .background05-slide01-text {
+        margin-left: 0px;
+    }
+
+}
+
+/* Background 06*/
+.background06-slide01,
+.background06-slide02,
+.background06-slide03 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.background06-slide01-frame:after { 
+    content: ' ';
+    z-index: 1028;
+    border-top: 100vh solid rgba(0,3,11,0.95);
+    border-right: 0vw solid transparent;
+    border-left: 50vw solid rgba(0,3,11,0.95);
+    width: 0;
+    position: absolute;
+}
+
+.background06-slide01 {
+    background-position: 0% 0%;
+    background-image: url("/assets/img/topo-1.png");
+}
+
+.background06-slide02 {
+    background-image: url("/assets/img/topo-1.png");
+}
+
+.background06-slide03 {
+    background-image: url("/assets/img/topo-1.png");
+}
+
+.background06-slide01-text {
+    margin-top: 20rem;
+    margin-left: 140px;
+    justify-content: center;
+}
+
+.bck06-slide01-text-p {
+    font-weight: 700;
+    text-shadow: -2px 2px 1px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 35px;
+}
+
+@media (max-width: 768px) {
+
+    .background06-slide01,
+    .background06-slide02,
+    .background06-slide03 {
+        align-items: center;
+    }
+
+    .background06-slide01 {
+        background-position: 82% 0;
+    }
+
+    .background06-slide01-text {
+        margin-left: 0px;
+    }
+
+}
+
+/*Background 07*/
+.background07-slide01,
+.background07-slide02,
+.background07-slide03 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.background07-slide01-frame:after { 
+    content: ' ';
+    z-index: 1028;
+    border-top: 100vh solid #6d0003;
+    border-right: 50vw solid transparent;
+    border-left: 50vw solid #6d0003;
+    width: 0;
+    position: absolute;
+}
+
+.background07-slide01 {
+    background-position: 0% 0%;
+    background-image: url("/assets/img/topo-1.png");
+}
+
+.background07-slide02 {
+    background-image: url("/assets/img/topo-1.png");
+}
+
+.background07-slide03 {
+    background-image: url("/assets/img/topo-1.png");
+}
+
+.background07-slide01-text {
+    margin-top: 20rem;
+    margin-left: 140px;
+    justify-content: center;
+}
+
+.bck07-slide01-text-p {
+    font-weight: 700;
+    text-shadow: -2px 2px 1px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 35px;
+}
+
+@media (max-width: 768px) {
+
+    .background07-slide01,
+    .background07-slide02,
+    .background07-slide03 {
+        align-items: center;
+    }
+
+    .background07-slide01 {
+        background-position: 82% 0;
+    }
+
+    .background07-slide01-text {
+        margin-left: 0px;
+    }
+}
+
+/*Background 08*/
+
+.background08 {
+    background-color: #8f0008;
+}
+.h1-licenciados{
+    font-size: 80px;
+}
+.p-licenciados{
+    font-size: 30px;
+}
+/*Background 09*/
+/*Background 10*/
+.background10 {
+    width: 100%;
+    background-color: #00030b;
+    font-weight: 400;
+}
+
+.background10 .carousel-indicators {
+    margin-bottom: 0;
+}
+
+/* OUTROS */
+.btn-padrao {
+    color: white;
+    font-size: 35px;
+    background-color: #00385e;
+    padding: 0rem 3rem 0.5rem 3rem;
+}
+
+.btn-padrao:hover {
+    color: white;
+    background-color: #1a4c6e
+}
+
+

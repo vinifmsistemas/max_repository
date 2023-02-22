@@ -3,14 +3,14 @@
         <div class="container-fluid">
         <a class="navbar-brand" href="/"><img src="/assets/img/logo.png" alt=""height="100"></a>
         <div class="">-->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-topo" aria-controls="navbar-topo" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="navbarlogo text-sm-end text-center me-5">
-          <a class="navbar-brand" href="/"><img src="/assets/img/max.png" alt="" id="logo"></a>
+          <div class="navbarlogo text-center">
+          <img src="/assets/img/max.png" alt="" id="logo">
           </div>
-          <div class="collapse navbar-collapse" id="navbarsExample03">
+          <div class="collapse navbar-collapse" id="navbar-topo">
           
             <ul class="navbar-nav mb-2 mb-sm-0 ">
               <li class="nav-item dropdown">
@@ -52,3 +52,5 @@
             </ul>
           </div>
       </nav>
+      <div class="nav-shadow">
+      </div>

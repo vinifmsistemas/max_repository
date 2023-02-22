@@ -19,13 +19,12 @@ include('manager.php');
 <html lang="pt-br">
 
 <head>
-    <title>Max eSports</title>
     <!-- Meta tags -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
-    <title>New project</title>
+    <link type="image/x-icon" href="/assets/img/favicon-max.png" type="image/x-icon">
+    <title>Max eSports</title>
 
     <!-- CSS -->
     <link href="/assets/bootstrap.min.css" rel="stylesheet">
