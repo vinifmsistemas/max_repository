@@ -84,24 +84,18 @@
         <div class="col-md-3"></div>
         <div class="col-md-8">
           <h1>6.250</h1>
-      <h5>M2 de ÁREA</h5>
-<br>
-    <h1>85m2</h1>
-      <h5>DE TELAS INTEGRADAS</h5>
-<br>
-    <h1>3.000</h1>
-      <h5>CAPACIDADE DE PÚBLICO</h5>
+          <h5>M² DE ÁREA</h5>
+          <br>
+          <h1>85M² </h1>
+          <h5>DE TELAS INTEGRADAS</h5>
+          <br>
+          <h1>3.000</h1>
+          <h5>CAPACIDADE DE PÚBLICO</h5>
         </div>
-
-        
       </div>
-<div style="font-size:16px;line-height: 1.5;max-width: 500px;" class="row">
-  A Max Arena conta com a melhor estrutura de transmissão ao vivo e com os melhores profissionais do mercado.<br>Somos especialistas, operamos e transmitimos atendendo todos os protocolos internacionais de broadcast.
-</div>
-      
-
-
-
+      <div style="font-size:16px;line-height: 1.5;max-width: 500px;" class="row">
+      A MAX ARENA CONTA COM A MELHOR ESTRUTURA DE TRANSMISSÃO AO VIVO E COM OS MELHORES PROFISSIONAIS DO MERCADO.<br>SOMOS ESPECIALISTAS, OPERAMOS E TRANSMITIMOS ATENDENDO TODOS OS PROTOCOLOS INTERNACIONAIS DE BROADCAST.
+      </div>
     </div>
   </div>
 </div>
@@ -161,18 +155,18 @@
 
 <!-- Part 5 -->
 <style>
-.background05-slide01 {
+  .background05-slide01 {
     background-position: 0% 0%;
     background-image: url("/assets/img/part5/telao.png");
-}
+  }
 
-.background05-slide02 {
- background-image: url("/assets/img/part5/telao1.png");
-}
+  .background05-slide02 {
+    background-image: url("/assets/img/part5/telao1.png");
+  }
 
-.background05-slide03 {
+  .background05-slide03 {
     background-image: url("/assets/img/part5/telao2.png");
-}
+  }
 </style>
 
 <div class="background05 w-100 h-100">
@@ -188,9 +182,9 @@
       <div class="carousel-item active">
         <div class="background05-slide01">
           <div style="z-index:1200" class="background05-slide01-text col-md-5">
-            <p class="bck05-slide01-text-p mt-3" style="z-index: 1000;">DIAS 29 e 20 DE ABRIL.<br>
+            <p class="bck05-slide01-text-p mt-3">DIAS 29 e 20 DE ABRIL.<br>
               RESERVE SEU INGRESSO PARA O MAIOR EVENTO DO UNIVERSO DE GENSHIN IMPACT NO BRASIL.</p>
-            
+
             <button class="btn btn-padrao" type="button">SAIBA MAIS</button>
           </div>
         </div>
@@ -200,7 +194,7 @@
           <div style="z-index:1200" class="background05-slide01-text col-md-5">
             <p class="bck05-slide01-text-p mt-3">DIAS 29 e 20 DE ABRIL.<br>
               RESERVE SEU INGRESSO PARA O MAIOR EVENTO DO UNIVERSO DE GENSHIN IMPACT NO BRASIL.</p>
-            
+
             <button class="btn btn-padrao" type="button">SAIBA MAIS</button>
           </div>
         </div>
@@ -214,7 +208,7 @@
           </div>
         </div>
       </div>
-     
+
     </div>
   </div>
 </div>
@@ -223,14 +217,14 @@
 
 <div class="background06 w-100 h-100" style="background-color:#00101b;background-image: url(/assets/img/part5/studio.png);min-width: 300px;max-height: 750px;">
   <div class=" col-md-5" style="padding: 190px 0 0 160px">
-            <p class="bck06-slide01-text-p mt-3" >
-              <h1>ESTUDIOS</h1>
-              <h4 style="line-height: 2;">A Max Arena conta com a melhor estrutura de transmissão ao vivo e com os melhores profissionais do mercado. <br>Somos especialistas, operamos e transmitimos atendendo todos os protocolos internacionais de broadcast.</h4>
-            <button class="btn btn-padrao" type="button">SAIBA MAIS</button>
-          </div>
+    <p class="bck06-slide01-text-p mt-3">
+    <h1>ESTUDIOS</h1>
+    <h4 style="line-height: 2;">A Max Arena conta com a melhor estrutura de transmissão ao vivo e com os melhores profissionais do mercado. <br>Somos especialistas, operamos e transmitimos atendendo todos os protocolos internacionais de broadcast.</h4>
+    <button class="btn btn-padrao" type="button">SAIBA MAIS</button>
+  </div>
 
 
-  
+
 </div>
 <!-- Part 07 -->
 
@@ -242,41 +236,45 @@
       <button type="button" data-bs-target="#background07-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
-      <div class="carousel-item active " >
+      <div class="carousel-item active ">
         <div class="background07-slide01">
           <div class="background07-slide01-text col-md-5">
-            <p class="bck07-slide01-text-p mt-3">DIAS 29 3 20 DE ABRIL.<br>
-              RESERVE SEU INGRESSO PARA O MAIOR EVENTO DO UNIVERSO DE GENSHIN IMPACT NO BRASIL.</p>
+            <h1>MX EXPERIENCE</h1>
+            <p class="bck07-slide01-text-p mt-3">
+              A MAX ARENA CONTA COM A MELHOR ESTRUTURA DE TRANSMISSÃO AO VIVO E COM OS MELHORES PROFISSIONAIS DO MERCADO. SOMOS ESPECIALISTAS, OPERAMOS E TRANSMITIMOS ATENDENDO TODOS OS PROTOCOLOS INTERNACIONAIS DE BROADCAST.
+            </p>
+            <p>REALIDADE AUMENTADA METAVERSO EXPERIENCE GAMES PROMO</p>
+            <p>BAIXE O APP MAX EXPERIENCE</p>
             <!--button -->
             <button class="btn btn-padrao" type="button">SAIBA MAIS</button>
           </div>
         </div>
       </div>
-      
-      <div class="carousel-item" >
+
+      <div class="carousel-item">
         <div class="background07-slide02"></div>
       </div>
-      
+
     </div>
   </div>
 </div>
 
 <!-- Part 08 -->
 <div class="background08 w-100">
-<div class="row mx-5 pb-4">
-  <h1 class="h1-licenciados col-md-12 text-center mt-5">LICENCIADOS</h1>
-  <p class="p-licenciados col-md-12 text-center mb-4">ADQUIRA AQUI A LINHA DE PRODUTOS DA MAX ARENA</p>
-</div>
+  <div class="row mx-5 pb-4">
+    <h1 class="h1-licenciados col-md-12 text-center mt-5">LICENCIADOS</h1>
+    <p class="p-licenciados col-md-12 text-center mb-4">ADQUIRA AQUI A LINHA DE PRODUTOS DA MAX ARENA</p>
+  </div>
 </div>
 <!-- Part 09 -->
 <div class="background08 col-md-12">
-<div class="row">
-  <img src="/assets/img/camisa.png" class="col-md-6">
-  <img src="/assets/img/cadeiras.png" class="col-md-6">
+  <div class="row">
+    <img src="/assets/img/camisa.png" class="col-md-6">
+    <img src="/assets/img/cadeiras.png" class="col-md-6">
 
-</div>
-  
-  
+  </div>
+
+
 </div>
 <!-- Part 10 -->
 
@@ -295,9 +293,9 @@
           </div>
         </div>
         <div class="row mx-5 pb-5">
-        <div class="col-md-12 text-center">
+          <div class="col-md-12 text-center">
             <img src="/assets/img/ubisoft.png" class="logoparceiro">
-            <img src="/assets/img/gilette.png" class="logoparceiro">        
+            <img src="/assets/img/gilette.png" class="logoparceiro">
             <img src="/assets/img/play.png" class="logoparceiro">
             <img src="/assets/img/creality.png" class="logoparceiro">
             <img src="/assets/img/tiktok.png" class="logoparceiro">
@@ -310,7 +308,7 @@
   <div class="background11 w-100">
     <img src="/assets/img/mapa.png" style="width:100%">
   </div>
-<div class="col-md-12">
+  <div class="col-md-12">
     <img src="/assets/img/rodape.png" style="width: 100%;">
-</div>    
+  </div>
 </div>
