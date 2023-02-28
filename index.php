@@ -9,11 +9,13 @@ if ($errorDefinicoes == 1) {
 }
 
 //Force files download
-$uniqid = '?id=0.1';
+$uniqid = '?id='.uniqid();
 
 // Include 
 include('manager.php');
+
 ?>
+
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -23,17 +25,21 @@ include('manager.php');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link type="image/x-icon" href="/assets/img/favicon-max.png" type="image/x-icon">
+    <link type="image/x-icon" href="/favicon.ico" type="image/x-icon">
     <title>Max eSports</title>
 
     <!-- CSS -->
     <link href="/assets/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/app.css" rel="stylesheet">
+    <link href="/assets/app.css?d=?id=63fd2bcd0c5f2" rel="stylesheet">
+    <link href="/assets/768.css?d=?id=63fd2bcd0c5f2" rel="stylesheet">
+    <link href="/assets/1200.css?d=?id=63fd2bcd0c5f2" rel="stylesheet">
+    <link href="/assets/1500.css?d=?id=63fd2bcd0c5f2" rel="stylesheet">
+
 
     <!-- Javascript -->
     <script src="/assets/bootstrap.bundle.min.js"></script>
     <script src="/assets/jquery.min.js"></script>
-    <script src="/assets/app.js"></script>
+    <script src="/assets/app.js?d=?id=63fd2bcd0c5f2"></script>
 </head>
 
 <body>

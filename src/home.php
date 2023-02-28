@@ -1,5 +1,3 @@
-<!-- Part 01 -->
-
 <div class="background01 w-100 h-100">
   <div id="background01-carousel" class="carousel slide" data-bs-ride="carousel" data-interval="false">
     <div class="carousel-indicators">
@@ -81,10 +79,27 @@
 
 <div class="background03 w-100 h-100">
   <div class="background03-container-background">
-    <div class="background03-container-text">
-      <h6>asdokasodkaoskdoaskdokaksd</h6>
+    <div class="background03-container-text" style="min-height: 600px;">
+      <div class="row" style="margin-top:120px">
+        <div class="col-md-3"></div>
+        <div class="col-md-8">
+          <h1>6.250</h1>
+      <h5>M2 de ÁREA</h5>
+<br>
+    <h1>85m2</h1>
+      <h5>DE TELAS INTEGRADAS</h5>
+<br>
+    <h1>3.000</h1>
+      <h5>CAPACIDADE DE PÚBLICO</h5>
+        </div>
 
-      <h6>asdokasodkaoskdoaskdokaksd</h6>
+        
+      </div>
+<div style="font-size:16px;line-height: 1.5;max-width: 500px;" class="row">
+  A Max Arena conta com a melhor estrutura de transmissão ao vivo e com os melhores profissionais do mercado.<br>Somos especialistas, operamos e transmitimos atendendo todos os protocolos internacionais de broadcast.
+</div>
+      
+
 
 
     </div>
@@ -120,7 +135,7 @@
       <div class="tab-pane fade show active" id="max-league" role="tabpanel" aria-labelledby="home-tab">
         <div class="row mx-0">
           <div class="col-md-8 px-0">
-            <video class="w-100 h-100" src="https://www.youtube.com/watch?v=ewRDuEroMGI&ab_channel=Bronziocre" controls></video>
+            <iframe class="embed-responsive-item" style="width:100%;height: 100%;" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
           </div>
           <div class="col-md-4 px-0">
             <img src="./assets//img/img1-tab-maxleague.jpg" alt="">
@@ -145,6 +160,20 @@
 </div>
 
 <!-- Part 5 -->
+<style>
+.background05-slide01 {
+    background-position: 0% 0%;
+    background-image: url("/assets/img/part5/telao.png");
+}
+
+.background05-slide02 {
+ background-image: url("/assets/img/part5/telao1.png");
+}
+
+.background05-slide03 {
+    background-image: url("/assets/img/part5/telao2.png");
+}
+</style>
 
 <div class="background05 w-100 h-100">
   <div id="background05-carousel" class="carousel slide" data-bs-ride="carousel" data-interval="false">
@@ -158,71 +187,62 @@
       </div>
       <div class="carousel-item active">
         <div class="background05-slide01">
-          <div class="background05-slide01-text col-md-5">
-            <p class="bck05-slide01-text-p mt-3">DIAS 29 3 20 DE ABRIL.<br>
+          <div style="z-index:1200" class="background05-slide01-text col-md-5">
+            <p class="bck05-slide01-text-p mt-3" style="z-index: 1000;">DIAS 29 e 20 DE ABRIL.<br>
               RESERVE SEU INGRESSO PARA O MAIOR EVENTO DO UNIVERSO DE GENSHIN IMPACT NO BRASIL.</p>
-            <!--button -->
+            
             <button class="btn btn-padrao" type="button">SAIBA MAIS</button>
           </div>
         </div>
       </div>
-      <!-- carousel itens sem uso atual
       <div class="carousel-item">
-        <div class="background05-slide02"></div>
+        <div class="background05-slide02">
+          <div style="z-index:1200" class="background05-slide01-text col-md-5">
+            <p class="bck05-slide01-text-p mt-3">DIAS 29 e 20 DE ABRIL.<br>
+              RESERVE SEU INGRESSO PARA O MAIOR EVENTO DO UNIVERSO DE GENSHIN IMPACT NO BRASIL.</p>
+            
+            <button class="btn btn-padrao" type="button">SAIBA MAIS</button>
+          </div>
+        </div>
       </div>
       <div class="carousel-item">
-        <div class="background05-slide03"></div>
+        <div class="background05-slide03">
+          <div style="z-index:1200" class="background05-slide01-text col-md-5">
+            <p class="bck05-slide01-text-p mt-3">DIAS 29 e 20 DE ABRIL.<br>
+              RESERVE SEU INGRESSO PARA O MAIOR EVENTO DO UNIVERSO DE GENSHIN IMPACT NO BRASIL.</p>
+            <button class="btn btn-padrao" type="button">SAIBA MAIS</button>
+          </div>
+        </div>
       </div>
-      -->
+     
     </div>
   </div>
 </div>
 
 <!-- Part 06 -->
 
-<div class="background06 w-100 h-100">
-  <div id="background06-carousel" class="carousel slide" data-bs-ride="carousel" data-interval="false">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#background06-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#background06-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#background06-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="background06-slide01-frame"></div>
-      <div class="carousel-item active">
-        <div class="background06-slide01">
-          <div class="background06-slide01-text col-md-5">
-            <p class="bck06-slide01-text-p mt-3">DIAS 29 3 20 DE ABRIL.<br>
-              RESERVE SEU INGRESSO PARA O MAIOR EVENTO DO UNIVERSO DE GENSHIN IMPACT NO BRASIL.</p>
-            <!--button -->
+<div class="background06 w-100 h-100" style="background-color:#00101b;background-image: url(/assets/img/part5/studio.png);min-width: 300px;max-height: 750px;">
+  <div class=" col-md-5" style="padding: 190px 0 0 160px">
+            <p class="bck06-slide01-text-p mt-3" >
+              <h1>ESTUDIOS</h1>
+              <h4 style="line-height: 2;">A Max Arena conta com a melhor estrutura de transmissão ao vivo e com os melhores profissionais do mercado. <br>Somos especialistas, operamos e transmitimos atendendo todos os protocolos internacionais de broadcast.</h4>
             <button class="btn btn-padrao" type="button">SAIBA MAIS</button>
           </div>
-        </div>
-      </div>
-      <!-- carousel itens sem uso atual
-      <div class="carousel-item">
-        <div class="background06-slide02"></div>
-      </div>
-      <div class="carousel-item">
-        <div class="background06-slide03"></div>
-      </div>
-      -->
-    </div>
-  </div>
-</div>
 
+
+  
+</div>
 <!-- Part 07 -->
 
-<div class="background07 w-100 h-100">
+<div class="background07 w-100 h-100" style="max-height: 570px;">
   <div id="background07-carousel" class="carousel slide" data-bs-ride="carousel" data-interval="false">
-    <div class="carousel-indicators">
+    <div class="carousel-indicators" style="justify-content: right;margin-right: 4%;">
       <button type="button" data-bs-target="#background07-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#background07-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#background07-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
-      <div class="background07-slide01-frame"></div>
-      <div class="carousel-item active">
+      <div class="carousel-item active " >
         <div class="background07-slide01">
           <div class="background07-slide01-text col-md-5">
             <p class="bck07-slide01-text-p mt-3">DIAS 29 3 20 DE ABRIL.<br>
@@ -232,14 +252,11 @@
           </div>
         </div>
       </div>
-      <!-- carousel itens sem uso atual
-      <div class="carousel-item">
+      
+      <div class="carousel-item" >
         <div class="background07-slide02"></div>
       </div>
-      <div class="carousel-item">
-        <div class="background07-slide03"></div>
-      </div>
-      -->
+      
     </div>
   </div>
 </div>
@@ -251,9 +268,19 @@
   <p class="p-licenciados col-md-12 text-center mb-4">ADQUIRA AQUI A LINHA DE PRODUTOS DA MAX ARENA</p>
 </div>
 </div>
+<!-- Part 09 -->
+<div class="background08 col-md-12">
+<div class="row">
+  <img src="/assets/img/camisa.png" class="col-md-6">
+  <img src="/assets/img/cadeiras.png" class="col-md-6">
+
+</div>
+  
+  
+</div>
 <!-- Part 10 -->
 
-<div class="background10 w-100 h-50">
+<div class="background10 w-100 h-50" style="max-height: 400px;">
   <div id="background10-carousel" class="carousel slide" data-bs-ride="carousel" data-interval="0">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#background10-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -268,24 +295,22 @@
           </div>
         </div>
         <div class="row mx-5 pb-5">
-        <div class="col-md-2 text-center">
-            <img src="/assets/img/ubisoft.png">
-          </div>
-        <div class="col-md-2 text-center">
-            <img src="/assets/img/gilette.png">
-          </div>
-        <div class="col-md-2 text-center">
-            <img src="/assets/img/play.png">
-          </div>
-          <div class="col-md-2 text-center">
-            <img src="/assets/img/creality.png">
-          </div>
-          <div class="col-md-2 text-center">
-            <img src="/assets/img/tiktok.png">
+        <div class="col-md-12 text-center">
+            <img src="/assets/img/ubisoft.png" class="logoparceiro">
+            <img src="/assets/img/gilette.png" class="logoparceiro">        
+            <img src="/assets/img/play.png" class="logoparceiro">
+            <img src="/assets/img/creality.png" class="logoparceiro">
+            <img src="/assets/img/tiktok.png" class="logoparceiro">
           </div>
         </div>
       </div>
     </div>
   </div>
   <!-- Part 11 -->
-  <div class="background11 w-100"></div>
+  <div class="background11 w-100">
+    <img src="/assets/img/mapa.png" style="width:100%">
+  </div>
+<div class="col-md-12">
+    <img src="/assets/img/rodape.png" style="width: 100%;">
+</div>    
+</div>
